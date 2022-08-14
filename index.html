@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style></style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project One</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="resources/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="resources/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="resources/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="resources/favicon/site.webmanifest" />
+
+    <script>
+      function onChange() {
+        const password = document.querySelector("input[name=password]");
+        const confirm = document.querySelector("input[name=confirm]");
+        if (confirm.value === password.value) {
+          confirm.setCustomValidity("");
+        } else {
+          confirm.setCustomValidity("Passwords do not match");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="form">
+      <form>
+        <p>
+          <strong>
+            This is not a real online service! You know you need something like
+            this in your life to help you relaize your deepest dreams. Sign up
+            <em>now</em> to get started.
+            <br />
+            You know you want to.
+          </strong>
+        </p>
+
+        <div class="input-div">
+          <p><strong> Let's do this! </strong></p>
+          FIRST NAME <br />
+          <input type="text" name="Firstname" /> <br />
+          LAST NAME <br />
+          <input type="text" name="Lastname" id="" /> <br />
+          EMAIL <br />
+          <input type="email" name="email" id="" /> <br />
+          PHONE NUMBER <br />
+          <input type="telephone" /> <br />
+          PASSWORD <br />
+          <input type="password" name="password" /> <br />
+          CONFIRM PASSOWRD <br />
+          <input type="password" name="confirm" /> <br />
+        </div>
+        <button>Create Account</button>
+        <br />
+        <p>Already have an account? <a href="">Log in</a></p>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&display=swap");
+}
+body {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(resources/halie-west-25xggax4bSA-unsplash.jpg);
+  font-family: "Big Shoulders Display";
+}
+
+a {
+  text-decoration: none;
+  color: #596d48;
+}
+
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 20%;
+  text-align: center;
+  color: white;
+  background-color: #596d48;
+  border-radius: 5px;
+  margin: 20px;
+  border: 0;
+  box-shadow: #e5e7eb;
+}
+
+input {
+  border-color: #e5e7eb;
+  border-radius: 2px;
+  
+}
+
+/* input:focus {
+    border: blue;
+    box-shadow: subtle;
+} */
+
+.form {
+  background-color: #e5e7eb;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  overflow: hidden;
+  justify-content: right;
+  padding: 20px;
+  padding-top: 10px;
+}
+
+.input-div {
+  /* text-transform: uppercase; */
+  font-size: small;
+  background-color: #fff;
+  width: 100%;
+  margin-left: 0;
+}
